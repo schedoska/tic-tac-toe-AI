@@ -26,13 +26,13 @@ and the amount of symbols in a row needed to win. User can also pick whether he 
 
 Example:
 
-'''
+```
 mkdir build
 cd build
 cmake .. -G "Unix Makefiles"
 make
 .\tic_tac_toe_AI.exe
-'''
+```
 
 
 
