@@ -23,11 +23,11 @@ void Grid::render(sf::RenderTarget& okno)
 	if(isKursorVisible)
 	okno.draw(GridKursor);
 
-	for (int q = 0; q < PionoweLinie.size(); q++)
+	for (size_t q = 0; q < PionoweLinie.size(); q++)
 	{
 		okno.draw(*PionoweLinie[q]);
 	}
-	for (int q = 0; q < PoziomeLinie.size(); q++)
+	for (size_t q = 0; q < PoziomeLinie.size(); q++)
 	{
 		okno.draw(*PoziomeLinie[q]);
 	}
@@ -77,11 +77,11 @@ void Grid::update(sf::Vector2i MousePos)
 
 void Grid::RemoveAllLines()
 {
-	for (int q = 0; q < PionoweLinie.size(); q++)
+	for (size_t q = 0; q < PionoweLinie.size(); q++)
 	{
 		delete PionoweLinie[q];
 	}
-	for (int q = 0; q < PoziomeLinie.size(); q++)
+	for (size_t q = 0; q < PoziomeLinie.size(); q++)
 	{
 		delete PoziomeLinie[q];
 	}
