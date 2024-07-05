@@ -5,9 +5,9 @@ and the amount of symbols in a row needed to win. User can also pick whether he 
 
 ## Screenshots
 
-![tic1](./docs/tic1.png)
+![tic1](./docs/tic1.png | width=100)
 
-![tic2](./docs/tic2.png)
+![tic2](./docs/tic2.png | width=100)
 
 ## How to use it?
 
